@@ -1843,6 +1843,7 @@ ul.actions li:first-child {
   text-decoration: none;
   position: relative;
   text-decoration: none;
+  margin-right: 0.25em;
 }
 
 .icon:before {
@@ -1856,24 +1857,32 @@ ul.actions li:first-child {
   text-transform: none !important;
   font-family: "Font Awesome 5 Free";
   font-weight: 400;
+  margin-right: 0.25em;
 }
 
 .icon.solid:before {
   font-weight: 900;
+  margin-right: 0.25em;
 }
 
 .icon.brands:before {
   font-family: "Font Awesome 5 Brands";
+  margin-right: 0.25em;
 }
 
 .icon:before {
   line-height: inherit;
+  margin-right: 0.25em;
 }
 
 .icon > .label {
   display: none;
+  margin-right: 0.25em;
 }
 
+.icon > img {
+  margin-right: 0.25em;
+}
 /* Nav */
 
 #nav {
