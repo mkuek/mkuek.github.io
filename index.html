@@ -40,13 +40,14 @@
             <br />
             <p class="about">
               Traffic Engineer by trade, problem solver at heart. My fast paced
-              professional experience has required me to think quickly and adapt to new
-              challenges on a daily basis. Exposure to large government clients
-              has taught me interpersonal skills and how to develop
-              relationships with key personnel. Outside of work I enjoy hiking, biking, and cooking. I recently became a father and am excited to bring my builder
-              mindset and penchant for learning to a new career in web
-              development.
-            </span>
+              professional experience has required me to think quickly and adapt
+              to new challenges on a daily basis. Exposure to large government
+              clients has taught me interpersonal skills and how to develop
+              relationships with key personnel. Outside of work I enjoy hiking,
+              biking, and cooking. I recently became a father and am excited to
+              bring my builder mindset and penchant for learning to a new career
+              in web development.
+            </p>
           </header>
           <a href="#work" class="jumplink pic">
             <span class="arrow icon solid fa-chevron-right"
@@ -190,9 +191,12 @@
               </div>
               <div class="col-12">
                 Chat Worm is an application that allows users to chat in real
-                time using socket.io.
+                time using socket.io. Users can share chat rooms with one
+                another to join a meeting. Persistent data is stored to a
+                MongoDB Atlas database.
               </div>
             </div>
+            <hr />
             <div class="row">
               <div class="col-12">
                 <a href="#" class="image fit"
@@ -224,6 +228,76 @@
                   <h4 style="justify-content: center">
                     <a
                       href="http://chatworm.herokuapp.com/"
+                      style="
+                        text-decoration: none;
+                        color: #777;
+                        vertical-align: middle !important;
+                      "
+                    >
+                      <img
+                        class="icon brands"
+                        src="./svg/icons8-browser-24.png"
+                        alt=""
+                      />
+                      Live
+                    </a>
+                  </h4>
+                </div>
+              </div>
+            </div>
+            <hr />
+            <br />
+            <div class="row">
+              <div class="col-12">
+                <h3>React-O-Blog</h3>
+                <span>
+                  JavaScript, React, React-Router, PostgresQL, Express, Node.js,
+                  and Amazon Web Services
+                </span>
+              </div>
+              <div class="col-12">
+                A rudementary blog site that allows users to create, update, and
+                delete blog posts as well as comment upon each post. Data is
+                stored and retreived from a PostgresQL database for persistent
+                data between sessions. The project was deployed using an AWS EC2
+                instance.
+              </div>
+            </div>
+            <hr />
+            <div class="row">
+              <div class="col-12">
+                <a href="#" class="image fit"
+                  ><img
+                    src="images/blog.gif"
+                    alt=""
+                    style="width: 50%; margin: auto"
+                /></a>
+              </div>
+            </div>
+            <br />
+            <div class="row">
+              <div class="col-3"></div>
+              <div class="col-4">
+                <div class="row">
+                  <h4>
+                    <a
+                      id="gitHubIcon"
+                      href="https://github.com/mkuek/react-blog"
+                      style="text-decoration: none; color: #777"
+                      ><i
+                        htmlFor="gitHubIcon"
+                        class="icon brands fa-github"
+                      ></i>
+                      Code</a
+                    >
+                  </h4>
+                </div>
+              </div>
+              <div class="col-3">
+                <div class="row">
+                  <h4 style="justify-content: center">
+                    <a
+                      href="http://18.217.29.20/"
                       style="
                         text-decoration: none;
                         color: #777;
@@ -346,11 +420,18 @@
                 >
               </div>
               <div class="col-4 col-4-medium col-4-small">
-                <i class="icon regular fa-file"></i> Resume
+                <i class="icon regular fa-file"></i>
+                <a
+                  href="./portfolio.pdf"
+                  alt=""
+                  style="text-decoration: none; color: #777"
+                  >Resume</a
+                >
               </div>
             </div>
           </section>
-          <form action="#" method="post">
+          <hr />
+          <form action="https://formspree.io/f/mzboklrd" method="post">
             <div>
               <div class="row">
                 <div class="col-6 col-12-medium">
@@ -366,7 +447,7 @@
                   <textarea
                     name="message"
                     placeholder="Message"
-                    rows="6"
+                    rows="4"
                   ></textarea>
                 </div>
                 <div class="col-12">
