@@ -2128,7 +2128,7 @@ body.is-preload #wrapper {
 #main > .panel.intro .pic .arrow {
   display: block;
   position: absolute;
-  right: 0;
+  right: 2%;
   top: 92%;
   margin-top: -1.375em;
   width: 2.75em;
@@ -2165,8 +2165,8 @@ body.is-preload #wrapper {
 #main > .panel.intro .pic .arrow {
   display: block;
   position: absolute;
-  right: 0;
-  top: 92%;
+  right: -2%;
+  top: 7%;
   margin-top: -1.375em;
   width: 2.75em;
   height: 2.75em;
